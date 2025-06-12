@@ -17,7 +17,7 @@ function App() {
     // Function to fetch Sleeper league data
     const fetchSleeperLeagueData = async () => {
       // Replace 'YOUR_LEAGUE_ID' with your actual Sleeper League ID
-      const leagueId = 'YOUR_LEAGUE_ID';
+      const leagueId = '1181984921049018368';
       const apiUrl = `https://api.sleeper.app/v1/league/${leagueId}`;
 
       try {
