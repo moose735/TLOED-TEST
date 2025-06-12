@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import useSleeperData from './hooks/useSleeperData.js'; // Import the new custom hook with .js extension
+import useSleeperData from './hooks/useSleeperData.js'; // Import the custom hook
 
-// Import page components with .js extensions
+// Import page components
 import Header from './components/Header.js';
 import Navigation from './components/Navigation.js';
 import HomePage from './components/HomePage.js';
