@@ -43,7 +43,7 @@ const useSleeperData = () => {
           const newHistoricalIds = {};
           let year = new Date().getFullYear();
           let foundLeagueForYear = true;
-          const minYear = 2010; // Prevent infinite loops if league name is not found, adjust as needed
+          const minYear = 2010; // Prevent infinite loops if league name is not found or user wasn't in any league, adjust as needed
 
           // Loop backwards through years until the league is no longer found or we hit a minimum year
           while (foundLeagueForYear && year >= minYear) {
