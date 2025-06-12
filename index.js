@@ -1,0 +1,16 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'; // Use createRoot from 'react-dom/client' for React 18
+import App from './App.js'; // Ensure your App.js file is directly in the 'src' folder
+
+// Get the root DOM element where your React app will be mounted
+const rootElement = document.getElementById('root');
+
+// Create a root for rendering your React application (React 18 way)
+const root = ReactDOM.createRoot(rootElement);
+
+// Render the App component into the root
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
